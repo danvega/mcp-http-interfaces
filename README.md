@@ -76,6 +76,13 @@ spring:
         base-url: http://localhost:8080
 ```
 
+## Branches
+
+| Branch | What it has |
+|--------|-------------|
+| `start` | The finished todos API and an MCP server with no tools. Start here to build it yourself. |
+| `main` | The finished code: the HTTP interface, the MCP tools, the 404 handling and the tests. |
+
 ## Good to know
 
 - Spring Boot 4 auto-configures HTTP service groups, but only with a client starter on the classpath. The MCP server adds `spring-boot-starter-restclient` for that.
