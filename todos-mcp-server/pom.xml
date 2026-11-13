@@ -11,7 +11,7 @@
 
     <artifactId>todos-mcp-server</artifactId>
     <name>todos-mcp-server</name>
-    <description>A Spring AI MCP server that calls the to-dos API through an HTTP interface</description>
+    <description>A Spring AI MCP server that calls the todos API through an HTTP interface</description>
 
     <dependencies>
         <!-- MCP server over Streamable HTTP, running on Spring MVC -->

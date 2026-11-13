@@ -11,7 +11,7 @@
 
     <artifactId>todos-api</artifactId>
     <name>todos-api</name>
-    <description>A simple to-dos REST API with seed data</description>
+    <description>A simple todos REST API with seed data</description>
 
     <dependencies>
         <dependency>

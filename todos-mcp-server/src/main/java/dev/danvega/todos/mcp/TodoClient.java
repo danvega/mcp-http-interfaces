@@ -11,7 +11,7 @@ import org.springframework.web.service.annotation.PutExchange;
 import java.util.List;
 
 /**
- * An HTTP interface for the to-dos API. Spring creates the implementation at runtime.
+ * An HTTP interface for the todos API. Spring creates the implementation at runtime.
  * The base URL comes from spring.http.serviceclient.todos.base-url in application.yaml.
  */
 @HttpExchange("/api/todos")

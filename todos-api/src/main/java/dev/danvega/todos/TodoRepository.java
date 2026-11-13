@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * An in-memory store, seeded with a few to-dos so there is something to look at.
+ * An in-memory store, seeded with a few todos so there is something to look at.
  */
 @Repository
 public class TodoRepository {

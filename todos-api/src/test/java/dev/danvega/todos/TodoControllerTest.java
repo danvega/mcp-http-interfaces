@@ -40,7 +40,7 @@ class TodoControllerTest {
     }
 
     @Test
-    @DirtiesContext // adds a to-do, so give the next test fresh seed data
+    @DirtiesContext // adds a todo, so give the next test fresh seed data
     void createReturns201() {
         assertThat(mvc.post().uri("/api/todos")
                 .contentType(MediaType.APPLICATION_JSON)

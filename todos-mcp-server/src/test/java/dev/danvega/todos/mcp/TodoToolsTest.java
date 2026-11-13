@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * TodoClient is just an interface, so the tools can be tested with a plain fake.
- * No HTTP and no running to-dos API needed.
+ * No HTTP and no running todos API needed.
  */
 class TodoToolsTest {
 

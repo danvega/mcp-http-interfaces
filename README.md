@@ -1,6 +1,6 @@
 # HTTP Interfaces in an MCP Server
 
-Can you use Spring HTTP interfaces inside an MCP server? Yes. This repo has two Spring Boot apps. One is a small to-dos REST API. The other is a Spring AI MCP server that calls that API through a declarative HTTP interface (`@HttpExchange`), so the MCP tools never touch `RestClient` directly.
+Can you use Spring HTTP interfaces inside an MCP server? Yes. This repo has two Spring Boot apps. One is a small todos REST API. The other is a Spring AI MCP server that calls that API through a declarative HTTP interface (`@HttpExchange`), so the MCP tools never touch `RestClient` directly.
 
 ## Tested with
 
@@ -25,7 +25,7 @@ This is a multi-module Maven project. Start the API first, then the MCP server, 
 
 | App | Port | What it is |
 |-----|------|------------|
-| `todos-api` | 8080 | REST API at `/api/todos`, seeded with 5 to-dos (in memory, reset on restart) |
+| `todos-api` | 8080 | REST API at `/api/todos`, seeded with 5 todos (in memory, reset on restart) |
 | `todos-mcp-server` | 8081 | MCP server over Streamable HTTP at `/mcp` |
 
 ## Try it
@@ -55,7 +55,7 @@ The server exposes 5 tools:
 Then ask your client something like this:
 
 ```text
-What's on my to-do list? Mark "Answer the HTTP interfaces question" as done and add a to-do to record the follow-up video.
+What's on my todo list? Mark "Answer the HTTP interfaces question" as done and add a todo to record the follow-up video.
 ```
 
 Run `curl localhost:8080/api/todos` again and you'll see the changes in the API.

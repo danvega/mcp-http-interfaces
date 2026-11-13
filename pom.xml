@@ -15,7 +15,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>mcp-http-interfaces</name>
-    <description>A to-dos REST API and a Spring AI MCP server that calls it through an HTTP interface</description>
+    <description>A todos REST API and a Spring AI MCP server that calls it through an HTTP interface</description>
 
     <modules>
         <module>todos-api</module>
